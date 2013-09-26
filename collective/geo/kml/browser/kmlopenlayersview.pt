@@ -7,6 +7,14 @@
       <metal:use use-macro="context/@@collectivegeo-macros/openlayers" />
     </metal:block>
  <body>
+<metal:header fill-slot="header">
+<div style="float: right"
+ tal:define="url context/absolute_url"
+     condition="python:url.endswith('/venue')">
+  <a href="/venues/folder_listing">列表顯示</a>
+</div>
+</metal:header>
+
   <metal:main fill-slot="main"
        tal:define="kssClassesView context/@@kss_field_decorator_view;
                    getKssClasses nocall:kssClassesView/getKssClassesInlineEditable;

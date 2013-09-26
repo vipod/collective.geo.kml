@@ -1,0 +1,28 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: collective.geo.kml\n"
+"POT-Creation-Date: 2012-01-25 08:20+0000\n"
+"PO-Revision-Date: 2013-01-08 11:37+0800\n"
+"Last-Translator: TsungWei Hu <marr.tw@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: zh-tw\n"
+"Language-Name: Traditional Chinese\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: collective.geo.kml\n"
+
+#: ../profiles/default/actions.xml
+msgid "Download KML"
+msgstr ""
+
+#: ../profiles/default/actions.xml
+msgid "Download the KML file associated with this content"
+msgstr ""
+
+#. Default: "See the original resource"
+#: ../browser/kmldocument_macros.pt:43
+msgid "See the original resource"
+msgstr "閱讀詳細資訊"

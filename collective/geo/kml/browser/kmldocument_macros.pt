@@ -46,7 +46,7 @@
               <tal:properties condition="display_properties">
                 <dl class="placemark-properties">
                   <tal:items repeat="prop display_properties">
-                    <dt tal:content="python:prop[0]">Key</dt>
+                    <!-- <dt tal:content="python:prop[0]">Key</dt> -->
                     <dd tal:content="python:prop[1]">Value</dd>
                   </tal:items>
                 </dl>
